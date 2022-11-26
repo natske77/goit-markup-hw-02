@@ -1,0 +1,236 @@
+/*ЗМіННІ*/
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --accent-background-color: #F5F5F5;
+}
+
+
+
+/*------- С Т У Д І Я ------- */
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    background-color: var(--accent-background-color);
+    color: var(--secondary-text-color);
+}
+
+
+
+/*------- H E D E R -------*/
+.header .link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    text-decoration: none;
+}
+
+.header .link:hover, .header .link:focus {
+    color: var(--accent-color);
+}
+
+
+
+/*logo*/
+.header .logo-link {
+    font-family: 'Raleway', sens-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header .logo-link > span {
+    color: var(--accent-color)
+}
+
+
+
+/*navigation*/
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.contacts .link {
+    color:var(--secondary-text-color);
+}
+
+
+
+/*------- M A I N -------*/
+/*hero*/
+.hero-section {
+        background: #2F303A;
+}
+    
+.hero-section .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-section .button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;    
+    color: #ffffff;
+    background-color: var(--accent-color);
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.button-hero:hover, .button-hero:focus {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
+}
+
+
+
+/*about company*/
+.features-section .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-text-color);
+}
+
+.features-section .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--secondary-text-color)
+}
+
+
+/*activity of company*/
+.activity-section .img-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    color: var(--primary-text-color);
+}
+
+
+/*workers*/
+.work-team-section .team-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    color: var(--primary-text-color);
+}
+
+.work-team-section{
+    text-align: center;
+}
+
+.work-team-section .worker-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+    color: var(--primary-text-color);
+}
+
+.work-team-section .worker-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+
+    color: var(--secondary-text-color);
+}
+
+
+/*------- F O O T E R -------*/
+.footer {
+    background-color: #2F303A;
+}
+
+
+/*logo footer*/
+.footer .logo-footer {
+    font-family: 'Raleway', sens-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: #000000;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer .logo-footer > span {
+    color: var(--accent-color);
+}
+
+
+/*address*/
+address {
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer .text {
+    color: #ffffff;
+}
+
+.footer-contacts .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+/*------- П О Р Т Ф О Л І О ------- */
+/*buttons*/
+.button-list .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--primary-text-color);
+
+    cursor: pointer;
+}
+
+.button-list .button:hover, .button-list .button:focus {
+    color: #F5F4FA;
+    background-color: var(--accent-color);
+}
+
+
+/*projects*/
+.projects-list .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.projects-list .type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-text-color);
+}
+
