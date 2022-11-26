@@ -1,4 +1,4 @@
-/*ЗМіННІ*/
+/* - - ЗМіННІ - - */
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -202,6 +202,7 @@ address {
 
 
 /*------- П О Р Т Ф О Л І О ------- */
+
 /*buttons*/
 .button-list .button {
     font-weight: 500;
